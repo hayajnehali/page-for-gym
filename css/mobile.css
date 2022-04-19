@@ -1,0 +1,55 @@
+#navbar{
+    flex-direction: column;
+}
+html,body{
+    line-height: 1.2;
+}
+#navbar ul li a{
+    padding: 0.4rem 1rem ;
+}
+
+.l-heading{
+    font-size: 1.5rem;
+}
+
+
+#about .about-content{
+    display: block;
+    text-align: center;
+}
+
+#about .about-content img{
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.l-heading{
+    padding: 0.5rem;
+}
+#programe{
+    background-color: beige;
+}
+#programe .boxes{
+    display: block;
+}
+#programe .boxes .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+#programe .boxes .box img{
+    margin-bottom: 0.7rem;
+}
+
+
+.contact #map{
+    
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+}

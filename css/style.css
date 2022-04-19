@@ -1,0 +1,259 @@
+/*roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*mine style*/
+html,body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*utility class*/
+.container{
+  max-width: 80%;
+  margin: auto;
+}
+
+.bg-dark{
+    background-color: #252A34;
+    color: #fff;
+}
+.bg-light{
+    background-color:#EAEAEA ;
+    color: #252A34;
+}
+.bg-primary{
+    background-color: #6a6a68;
+    color: #fff;
+}
+.text-primary{
+    color: #f0bf1b;
+}
+
+.text-center{
+    text-align: center;
+}
+.l-heading{
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.p-1{
+    padding: 1rem;
+}
+.m-heading{
+   font-size:2rem ;
+}
+
+.lead{
+    font-size: 1.0rem;
+}
+
+.py-1{
+    padding: 1.5rem 0;
+}
+.btn{
+    background-color:#f0bf1b ;
+    padding: .5rem 1.5rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+.btn:hover{
+    background-color: #0e0104;
+    color: #fff;
+    border: solid 1px seashell;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem 0.6rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#navbar .logo img{
+    width:60px;
+    border-radius: 50%;
+    
+}
+
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+#navbar ul li a{
+    color: #fff;
+    padding: 0.9rem 1rem;
+}
+
+#navbar ul li a:hover{
+    
+    background-color: #08d9d6;
+    border-radius: 5px;
+}
+
+/*section showcase*/
+#showcase{
+    background: #252a25 url(../img/ron.jpeg) no-repeat center center/cover
+    ;
+    
+    height: 100vh;
+    color: #fff;
+}
+
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+/*about*/
+#about .about-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#about .about-content div,
+#about .about-content img {
+    flex: 1;
+}
+#about .about-content img{
+    width: 50%;
+    height:70vh ;
+    border: 5px solid #fff;
+}
+
+/*section cta*/
+#cta{
+    background: url(../img/pexels-binyamin-mellish-116077.jpg) no-repeat center center/cover;
+    color: #fff;
+}
+
+#cta .cta-content {
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+/*section programe*/
+#programe{
+    color:#252a25;
+}
+#programe .boxes{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#programe .boxes .box{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    flex: 1;
+   
+}
+#programe .boxes .box img{
+    width: 60px;
+    height: 60px;
+    background-color: #f0bf1b;
+    padding: 0.5rem;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+
+p.a{
+    padding: 5px;
+    text-align: left;
+}
+.x{
+    display: flex;
+    align-items: center;
+}
+
+/*section contact*/
+.contact{
+    margin-top: 5rem;
+    display: flex;
+ 
+
+    
+}
+
+.contact .contact-us,
+.contact #map {
+    flex: 1;
+
+}
+.input{
+    display: flex;
+   
+}
+input ,textarea{
+    margin: 3px;
+    border-radius: 3px;
+    
+}
+
+.contact .contact-us input,
+.contact .contact-us textarea{
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    margin-bottom: 1rem;
+    
+    outline: none;
+    display: block;
+    
+}
+.contact .contact-us .py-1{
+    text-align: center;
+}
+.btn-dark{
+  background-color: #f0bf1b;
+
+}
+.f{
+    justify-content: center;
+}
+h4{
+    display: inline;
+}
+.foter{
+    
+    text-align: center;
+    padding: 4px;;
+  
+   
+    
+}
+.fa-brands{
+   
+    
+    font-size: 15px;
+    color: #c75014;
+    padding-left: 13px;
+}
